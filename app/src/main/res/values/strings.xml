@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Circe</string>
+    <string name="title_home">Perfil</string>
+    <string name="title_dashboard">Crear</string>
+    <string name="title_notifications">Antologia</string>
+    <string name="avatar">Avatar</string>
+    <string name="publicacion1">Publicacion1</string>
+    <string name="publicacion2">Publicacion2</string>
+
+</resources>
