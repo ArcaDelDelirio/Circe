@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
-
+//Esta es la aplicacion principal
 public class MainActivity extends AppCompatActivity {
     //Sobreescritura del constructor por defecto de la clase AppCompatActivity
     @Override
