@@ -1,5 +1,7 @@
 # Circe
-Aplicacion educacional minificciones
+[![Build Status](https://travis-ci.com/ArcaDelDelirio/Circe2.svg?branch=master)](https://travis-ci.com/ArcaDelDelirio/Circe2)
+Aplicación educacional de mini-ficciones.
 
-Es una app para Android, para instalar clona el repositorio y compila el bundle con Android Studio. 
-Esta es la versión alpha.
+Esta app para el móvil te permite escribir mini-ficciones de una forma nunca vista !!
+
+Pruébala !
