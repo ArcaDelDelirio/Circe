@@ -6,5 +6,13 @@
     <string name="avatar">Avatar</string>
     <string name="publicacion1">Publicacion1</string>
     <string name="publicacion2">Publicacion2</string>
-
+    <string name="prompt_email">email</string>
+    <string name="prompt_password">secret</string>
+    <string name="action_sign_in_short">Ready?</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="error_invalid_password">Invalid Password</string>
+    <string name="error_field_required">Field required</string>
+    <string name="error_invalid_email">Invalid email</string>
+    <string name="error_incorrect_password">Incorrect Password</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
 </resources>
