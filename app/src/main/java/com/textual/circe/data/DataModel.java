@@ -1,4 +1,4 @@
-package com.textual.circe;
+package com.textual.circe.data;
 
 public class DataModel {
 

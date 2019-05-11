@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_perfil"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Perfil" />
+    <item
+        android:id="@+id/nav_crear"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="Crear"/>
+    <item
+        android:id="@+id/nav_antologia"
+        android:icon="@android:drawable/ic_input_get"
+        android:title="Antología"/>
+</menu>

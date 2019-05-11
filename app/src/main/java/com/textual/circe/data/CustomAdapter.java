@@ -1,11 +1,13 @@
-package com.textual.circe;
+package com.textual.circe.data;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.textual.circe.R;
 
 import java.util.ArrayList;
 
@@ -37,7 +39,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
         View view = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.cards_layout, parent, false);
 
-        view.setOnClickListener(MainActivity.myOnClickListener);
+        //view.setOnClickListener();
 
         MyViewHolder myViewHolder = new MyViewHolder(view);
         return myViewHolder;

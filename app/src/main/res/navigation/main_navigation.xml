@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/perfilFragment">
+
+
+    <fragment
+        android:id="@+id/antologiaFragment"
+        android:name="com.textual.circe.Fragments.AntologiaFragment"
+        android:label="antologia_fragment"
+        tools:layout="@layout/antologia_fragment" >
+        <action
+            android:id="@+id/action_antologiaFragment_to_perfilFragment"
+            app:destination="@id/perfilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.textual.circe.Fragments.PerfilFragment"
+        android:label="PerfilFragment" >
+        <action
+            android:id="@+id/action_perfilFragment_to_createFragment"
+            app:destination="@id/createFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createFragment"
+        android:name="com.textual.circe.Fragments.CreateFragment"
+        android:label="CreateFragment" >
+        <action
+            android:id="@+id/action_createFragment_to_antologiaFragment"
+            app:destination="@id/antologiaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/activitiesFragment"
+        android:name="com.textual.circe.Fragments.ActivitiesFragment"
+        android:label="ActivitiesFragment" >
+        <action
+            android:id="@+id/action_activitiesFragment_to_perfilFragment"
+            app:destination="@id/perfilFragment" />
+    </fragment>
+</navigation>

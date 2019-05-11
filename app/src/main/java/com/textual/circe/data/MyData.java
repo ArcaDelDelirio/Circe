@@ -1,4 +1,6 @@
-package com.textual.circe;
+package com.textual.circe.data;
+
+import com.textual.circe.R;
 
 public class MyData {
 
